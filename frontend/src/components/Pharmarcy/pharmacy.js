@@ -1,10 +1,8 @@
-import React from 'react';
-import './pharmacy.scss';
+import React from "react";
+import "./Pharmacy.scss";
 
-function Pharmacy() {
-    return(
-        <div>Pharmacy</div>
-    );
-}
+const Pharmacy = () => {
+  return <div>Pharmacy</div>;
+};
 
 export default Pharmacy;

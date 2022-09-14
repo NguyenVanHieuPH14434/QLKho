@@ -16,9 +16,9 @@ import user from "./images/user.svg";
 
 import { IoMdLock } from "react-icons/io";
 import { MdOutlineExitToApp } from "react-icons/md";
-import "./header.scss";
+import "./Header.scss";
 
-function Example() {
+const Header = () => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -56,6 +56,11 @@ function Example() {
                   <Dropdown.Item>
                     <Link to="/consignment" className="link">
                       Nhập Lô
+                    </Link>
+                  </Dropdown.Item>
+                  <Dropdown.Item>
+                    <Link to="/storage" className="link">
+                      Lưu kho
                     </Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
@@ -124,6 +129,6 @@ function Example() {
       </Modal>
     </>
   );
-}
+};
 
-export default Example;
+export default Header;

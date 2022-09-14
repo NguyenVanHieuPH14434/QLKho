@@ -1,10 +1,8 @@
-import React from 'react';
-import "./transaction.scss";
+import React from "react";
+import "./Transaction.scss";
 
-function Transaction() {
-    return(
-        <div>Transaction</div>
-    );
-}
+const Transaction = () => {
+  return <div>Transaction</div>;
+};
 
 export default Transaction;
