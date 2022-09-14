@@ -13,11 +13,11 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Producer />}></Route>
-        <Route path="transaction" element={<Transaction />}></Route>
-        <Route path="producer" element={<Producer />}></Route>
-        <Route path="consignment" element={<Consignment />}></Route>
-        <Route path="pharmacy" element={<Pharmacy />}></Route>
-        <Route path="management" element={<Management />}></Route>
+        <Route path="/transaction" element={<Transaction />}></Route>
+        <Route path="/producer" element={<Producer />}></Route>
+        <Route path="/consignment" element={<Consignment />}></Route>
+        <Route path="/pharmacy" element={<Pharmacy />}></Route>
+        <Route path="/management" element={<Management />}></Route>
       </Routes>
     </div>
   );
