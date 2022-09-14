@@ -1,4 +1,4 @@
-import Header from "./Shared/Header/Header";
+import Header from "./Shared/Header/Header.js";
 import Transaction from "./components/Transaction/Transaction";
 import Producer from "./components/Producer/Producer";
 import Consignment from "./components/Consignment/Consignment";
